@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+# React + Mapbox
+This project is bootstrapped using: yarn create vite react-maps-mapbox --template react-ts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SDK: `react-map-gl`
 
-Currently, two official plugins are available:
+ ## Docs
+ [Mapbox](https://docs.mapbox.com/mapbox-gl-js/guides/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ [Design Philosophy](https://github.com/visgl/react-map-gl/blob/HEAD/docs/README.md#design-philosophy)
 
-## Expanding the ESLint configuration
+ [Pricing](https://docs.mapbox.com/mapbox-gl-js/guides/pricing/?utm_medium=pricing)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ [SDK:react-map-gl](https://visgl.github.io/react-map-gl/docs/get-started)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+ ## Steps to Run
+1. `yarn or npm install`
+2. `yarn dev or npm run dev`
+3. App should be available at http://localhost:5173/
